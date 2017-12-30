@@ -10,7 +10,7 @@ npm install
 npm run dev
 
 # build for production with minification
-npm run build --service-worker false
+npm run build
 
 # test the production build locally
 npm run serve
