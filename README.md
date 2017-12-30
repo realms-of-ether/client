@@ -1,4 +1,4 @@
-# {{ name }}
+# Realms of Ether
 
 ## CLI Commands
 
@@ -10,7 +10,7 @@ npm install
 npm run dev
 
 # build for production with minification
-npm run build
+npm run build --service-worker false
 
 # test the production build locally
 npm run serve

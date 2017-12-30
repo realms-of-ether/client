@@ -232,6 +232,7 @@ export default class Auction extends Component {
 						<Button onClick={this.bid.bind(this, hash)}>
 							Bid
 						</Button>
+						Steps in 0.1 ether<br />
 						If already bid, it increases your bid
 					</div>
 				);
