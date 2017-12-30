@@ -1,0 +1,26 @@
+.fortress {
+    margin: 10px;
+}
+
+.window {
+    width: 90px;
+    height: 90px;
+    background: url('/assets/window.png');
+    padding-top: 20px;
+    float: left;
+}
+
+.castle {
+    display:block;
+    margin: auto;
+}
+
+.resources {
+    float: right;
+    width: 200px;
+}
+
+.end {
+    width: 100%;
+    height: 80px;
+}

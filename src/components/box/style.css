@@ -1,0 +1,93 @@
+.box {
+    margin-top: 72px;
+    clear: both;
+    background: rgba(0, 0, 0, 0.07);
+    color: #F0F0F0;
+}
+
+/* TOP */
+
+.boxTop {
+    height: 17px;
+    clear: both;
+}
+
+.leftTop {
+    width: 17px;
+    height: 17px;
+    background: url('/assets/box/leftTop.png');
+    float: left;
+}
+
+.centerTop {
+    margin: 0 17px;
+    width: calc(100% - 34px);
+    height: 17px;
+    background: url('/assets/box/centerTop.png') repeat-x;
+}
+
+.rightTop {
+    width: 17px;
+    height: 17px;
+    background: url('/assets/box/rightTop.png');
+    float: right;
+}
+
+/* Content */
+
+.boxContent {
+    height: 70vh;
+}
+
+.leftCenter {
+    width: 17px;
+    height: 100%;
+    background: url('/assets/box/leftCenter.png');
+    float: left;
+}
+
+.content {
+    margin: 0 32px;
+    height: 100%;
+    overflow: auto;
+}
+
+.content h1 {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.rightCenter {
+    width: 17px;
+    height: 100%;
+    background: url('/assets/box/rightCenter.png');
+    float: right;
+}
+
+/*bottom*/
+
+.boxBottom {
+    height: 17px;
+    clear: both;
+}
+
+.leftBottom {
+    width: 17px;
+    height: 17px;
+    background: url('/assets/box/leftBottom.png');
+    float: left;
+}
+
+.centerBottom {
+    margin: 0 17px;
+    width: calc(100% - 34px);
+    height: 17px;
+    background: url('/assets/box/centerBottom.png') repeat-x;
+}
+
+.rightBottom {
+    width: 17px;
+    height: 17px;
+    background: url('/assets/box/rightBottom.png');
+    float: right;
+}

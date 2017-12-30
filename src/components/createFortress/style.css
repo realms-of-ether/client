@@ -1,0 +1,19 @@
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #F0F0F0; 
+    width: 200px;
+    color: #F0F0F0;
+    font-family: 'Press Start 2P';
+    margin-right: 16px;
+	cursor: url('/assets/cursor.png'), auto;
+}
+
+.input:focus {
+    outline: none;
+}
